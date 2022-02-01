@@ -5,9 +5,10 @@ async function getYoutubeVideos(req, res) {
   const youtubeResponseJson = await youtubeResponse.json();
   const videos = youtubeResponseJson.items
 
-  res.json({
-    videos: videos
-  })
+  res.setHeader('Cache-Control', 's-maxage=600, stale-while-revalidate')
+  res.json(
+    videos
+  )
 }
 
 export default getYoutubeVideos;

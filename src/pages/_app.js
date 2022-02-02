@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
 import '../styles/globals.css'
+import { Toaster } from 'react-hot-toast'
 
 function MyApp({ Component, pageProps }) {
   return <>
@@ -25,7 +26,7 @@ function MyApp({ Component, pageProps }) {
     <Script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" />
     <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.3/jquery.sticky.js" />
     <Script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" />
-
+    <Toaster position='bottom-right'/>
     <Component {...pageProps} />
   </>
 }

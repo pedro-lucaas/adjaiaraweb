@@ -3,6 +3,8 @@ import React from 'react';
 const LogoMain = '/assets/images/adjaiara-logo2.png'
 
 export default function Footer() {
+    const today = new Date().getFullYear()
+    
     return (
         <footer id="footer" className="bg-gr footer">
             <div className="container">
@@ -16,12 +18,8 @@ export default function Footer() {
                             </a>
                             <span className="logo-title">AD <b>JAIARA</b></span>
                             <br />
-
-                            <p>
-                                &copy;
-                                <script>
-                                    document.write(new Date().getFullYear())
-                                </script>. Todos os direitos reservados.
+                        
+                            <p>&copy;{today} . Todos os direitos reservados.
                                 <a href="http://www.adjaiara.org"> Assembleia de Deus Vila Jaiara</a>.
                             </p>
                         </div>

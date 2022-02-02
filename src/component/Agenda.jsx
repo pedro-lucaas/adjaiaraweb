@@ -95,10 +95,9 @@ function Agenda(props) {
                         <button className="button" onClick={decrement}> {'<'} </button>
                         <div className="d-grid outdoor col-9 col-sm-7 col-md-6 col-lg-4 col-xxl-3 text-center p-5">
                             <ul>
-                                <div className="fs-2">{week[day].title}</div>
-                                {week[day].eventos.map(element => (
-                                    <div key={element.id}>{element.name} <b>{element.time?'- '+element.time:''}</b> </div>
-                                ))}
+                                <div key={week[day].id} className="fs-2">{week[day].title}</div>
+                                {week[day].eventos.map((element,index) => <div key={index} >{element.name} <b>{element.time?'- '+element.time:''}</b> </div>
+                                )}
                             </ul>
                         </div>
                         <button className="button" onClick={increment}> {'>'} </button>

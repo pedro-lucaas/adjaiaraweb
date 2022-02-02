@@ -2314,6 +2314,6 @@ blockquote {
   font-weight: 600;
 }
 .danger-alert{
-  color: red;
+  color: rgb(255, 100, 100);
 }
 

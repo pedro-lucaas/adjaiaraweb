@@ -11,7 +11,7 @@ async function getYoutubeVideos(req, res) {
     const videoResponseJson = await videoResponse.json()
     items = videoResponseJson.items
   }
-  res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate')
+  res.setHeader('Cache-Control', 's-maxage=1800, stale-while-revalidate')
   res.json({
     items
   })

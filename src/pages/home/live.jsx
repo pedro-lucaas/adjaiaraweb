@@ -10,10 +10,10 @@ function Live(props) {
 			<section className=" wow fadeIn container-fluid bg-dark-2" style={{paddingTop:'12vh'}}>
 				<div className="d-flex flex-column">
 
-					<div className="text-center border-white-x">
+					<div className="text-center border-white-t">
 						<h1 className="text-white py-4 fw-bold">Culto Online</h1>
 					</div>
-					<div className="border-white-b">
+					<div className="border-white-x">
 						<Iframe />
 					</div>
 

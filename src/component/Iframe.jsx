@@ -10,10 +10,11 @@ function iframeVideo(props) {
 		fetch('/api/youtubeV3')
 			.then((res) => res.json())
 			.then((data) => {
-				setData(data.items)
+				setData(data.response)
 				setLoading(false)
 			})
 	}, [])
+
 	if (isLoading) return <>
 		<section className="bg-one" style={{ padding: '20vh' }}>
 			<div className="text-center">
@@ -26,8 +27,8 @@ function iframeVideo(props) {
 			<p className="text-center">Desculpe! Ocorreu um problema</p>
 		</section>
 	</>
-	return <div className="col video-culto-online  align-self-center text-center bg-one">
-		<iframe width="70%" height="100%" src={`https://www.youtube.com/embed/${items[0].id.videoId}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+	return <div className="col video-culto-online  align-self-center text-center bg-one p-0">
+		<iframe width="70%" height="100%" src={`https://www.youtube.com/embed/${data[0].id.videoId}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 	</div>
 }
 

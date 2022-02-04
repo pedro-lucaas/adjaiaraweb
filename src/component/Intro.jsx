@@ -6,14 +6,14 @@ const background = '/assets/images/backgrounds/bg-1.jpg'
 
 function intro() {
     return <div>
-        <section id="intro" className="about call-to-action section overly bg-1" style={{ backgroundImage: `url(${background})`,paddingTop:'10vh' }}>
+        <section id="intro" className="about call-to-action section overly bg-1" style={{ backgroundImage: `url(${background})`,paddingTop:'15vh' }}>
             <div className="container-fluid">
                 <div className="row justify-content-around">
                     <div className="col-12 text-center title wow fadeIn" data-wow-duration="1500ms">
                         <h2>Participe</h2>
                     </div>
                    <Cards />
-                </div> {/* End row */}        
+                </div>        
             </div>
         </section>
     </div>;

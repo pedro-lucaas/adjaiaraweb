@@ -10,7 +10,7 @@ const LogoMain = '/assets/images/adjaiara-logo2.png'
 function NavigationBar() {
     return <>
 
-        <nav id="navigation" className="navbar navbar-expand-lg navbar-dark bg-dark navigation shadow" style={{height:'80px'}}>
+        <nav id="navigation" className="navbar navbar-expand-lg navbar-dark bg-one navigation shadow" style={{height:'80px'}}>
 
 
                 <div className='position-absolute end-0'>
@@ -21,13 +21,13 @@ function NavigationBar() {
                 </div>
                 <div className='position-absolute start-0'>
                     <Link href="/">
-                        <a className="navbar-header logo-title px-5 px-xl-3">
-                            <img src={LogoMain} className="img-fluid" alt="LogoADJaiara" width="50" height="50"/>
-                            <span className='d-none d-xl-inline'>AD <b>JAIARA</b></span>
+                        <a className="navbar-header logo-title px-2 px-xl-3">
+                            <img src={LogoMain} className="img-fluid" alt="LogoADJaiara" width="55" height="55"/>
+                            <span className='d-none d-xl-inline'> <b>AD</b> JAIARA</span>
                         </a>
                     </Link>
                 </div>
-            <div className="collapse navbar-collapse justify-content-center bg-dark" id="navbarSupportedContent">
+            <div className="collapse navbar-collapse justify-content-center bg-one" id="navbarSupportedContent">
                 <ul className="navbar-nav">
                     <li className="nav-item text-center">
                         <a className="nav-link toggle" href="/home#intro">HOME</a>

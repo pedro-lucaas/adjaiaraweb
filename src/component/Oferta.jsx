@@ -7,18 +7,17 @@ const pix = '/assets/images/bancos/1pix.png'
 
 function Oferta() {
     return <div>
-        <section id="ofertas" className="call-to-action bg-1 overly" style={{ backgroundImage: `url(${background})` }}>
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="text-center title wow fadeInUp  fadeIn title-igreja" data-wow-duration="1500ms">
-                        <h2>Dízimos E<span className="color"> Ofertas</span> </h2>
-                        <div className="border"></div>
+        <section id="ofertas" className="call-to-action bg-two overly">
+            <div className="container-fluid ">
+                <div className="row justify-content-center d-flex ">
+                    <div className="title wow fadeInUp justify-content-center d-flex " data-wow-duration="1500ms">
+                        <h2>Dízimos e Ofertas <div className="title-border-1"></div></h2>
                     </div>
 
-                    <div className="col-xs-12 text-center wow wow fadeInUp ">
-                        <h2>Permaneça fiel nos dízimos e ofertas!<br />
-                            Eles podem ser feitos por PIX, transferência ou depósito:</h2>
-                        <h2>CNPJ: 02.341.030/0001-97</h2><br /><br />
+                    <div className="col-xs-12 text-center wow wow fadeInUp w-50">
+                        <p>Permaneça fiel nos dízimos e ofertas!
+                            Eles podem ser feitos por PIX, transferência ou depósito:</p>
+                        <h2> CNPJ:<h3>02.341.030/0001-97</h3></h2>
                     </div>
                 </div>
                 <div className="row d-flex justify-content-around">
@@ -49,23 +48,30 @@ function Oferta() {
                     <div className="col-6 col-sm-6 col-md-4 order-1 order-md-0 wow fadeInUp" data-wow-duration="500ms"
                         data-wow-delay="400ms">
                         <div className="text-center p-4">
-                            <h2>C/C 537-2<br />
-                                Cód 003 <br />
+                            <p>
+
+                                <h2>C/C</h2> 537-2
+                                <h2>Cód</h2> 003
                                 Ag.3257c
-                            </h2>
+                            </p>
                         </div>
                     </div>
                     <div className="col-6 col-sm-6 col-md-4 order-3 order-md-0 wow fadeInUp" data-wow-duration="500ms"
                         data-wow-delay="400ms">
                         <div className="text-center p-4">
-                            <h2>C/C 7695-3<br />Ag.3206-9</h2>
+                            <p>
+                                <h2>C/C</h2> 7695-3<h2>Ag. </h2>3206-9
+                            </p>
                         </div>
                     </div>
                     <div className="col-6 col-sm-6 col-md-4 order-5 order-md-0 wow fadeInUp" data-wow-duration="500ms"
                         data-wow-delay="400ms">
                         <div className="text-center p-4">
-                            <h2>Chave: Celular<br />
-                                62 99333-8461</h2>
+                            <p>
+                                <h2>Chave:</h2> Celular
+                                62 99333-8461
+
+                            </p>
                         </div>
                     </div>
                 </div>

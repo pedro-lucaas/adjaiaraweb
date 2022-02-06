@@ -6,14 +6,14 @@ export default function Footer() {
     const today = new Date().getFullYear()
     
     return (
-        <footer id="footer" className="bg-gr footer">
+        <footer id="footer" className="bg-one footer">
             <div className="container">
-                <div className="row wow fadeInUp" data-wow-duration="500ms">
-                    <div className="col-lg-12">
+                <div className="wow fadeInUp" data-wow-duration="500ms">
+                    <div className="">
 
                         {/* copyright */}
                         <div className="copyright text-center">
-                            <a href="index.html">
+                            <a href="/">
                                 <img src={LogoMain} alt="AD Jaiara" />
                             </a>
                             <span className="logo-title">AD <b>JAIARA</b></span>

@@ -1,16 +1,17 @@
 import React from 'react';
 import Cards from './Cards';
-const background = '/assets/images/backgrounds/bg-1.jpg'
 
 // import { Container } from './styles';#fc6e3d
 
-function intro() {
+function Intro() {
     return <div>
-        <section id="intro" className="about call-to-action section overly bg-1" style={{ backgroundImage: `url(${background})`,paddingTop:'15vh' }}>
+        <section id="intro" className="about call-to-action section overly bg-1 intro">
+            
             <div className="container-fluid">
                 <div className="row justify-content-around">
-                    <div className="col-12 text-center title wow fadeIn" data-wow-duration="1500ms">
-                        <h2>Participe</h2>
+                    <div className="col-12 d-flex justify-content-center title wow fadeIn" data-wow-duration="1500ms">
+                        <h2>Participe Conosco<div className="title-border-1"></div>
+                        </h2>
                     </div>
                    <Cards />
                 </div>        
@@ -19,4 +20,4 @@ function intro() {
     </div>;
 }
 
-export default intro;
+export default Intro;

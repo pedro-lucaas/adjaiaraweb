@@ -936,6 +936,7 @@ a:hover {
  Call To Action 1
 ==================================================================*/
 .call-to-action {
+  padding: 50px 0;
   background-attachment: fixed;
 }
 
@@ -2367,7 +2368,7 @@ blockquote {
   intro
 ==================================================================*/
 .intro{
-  background-image: linear-gradient(to bottom right, #e0e8b8, #f0f0e8, #b6baec);
+  background-image: linear-gradient(to bottom right, #e0e8b8,#e0e8b8, #f0f0e8, #b6baec,#b6baec);
 }
 
 .banner{

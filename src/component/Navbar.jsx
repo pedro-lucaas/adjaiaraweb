@@ -10,7 +10,7 @@ const LogoMain = '/assets/images/adjaiara-logo2.png'
 function NavigationBar() {
     return <>
 
-        <nav id="navigation" className="navbar navbar-expand-lg navbar-dark bg-one navigation shadow" style={{height:'80px'}}>
+        <nav id="navigation" className="navbar navbar-expand-lg navbar-dark bg-one navigation shadow" style={{height:'90px'}}>
 
 
                 <div className='position-absolute end-0'>

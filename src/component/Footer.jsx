@@ -16,18 +16,18 @@ export default function Footer() {
                             <a href="/">
                                 <img src={LogoMain} alt="AD Jaiara" />
                             </a>
-                            <span className="logo-title">AD <b>JAIARA</b></span>
+                            <span className="logo-title fs-1">AD <b>JAIARA</b></span>
                             <br />
                         
-                            <p>&copy;{today} . Todos os direitos reservados.
+                            <p className='fs-6 '>&copy;{today} . Todos os direitos reservados.
                                 <a href="http://www.adjaiara.org"> Assembleia de Deus Vila Jaiara</a>.
                             </p>
                         </div>
                         {/* /copyright */}
 
-                    </div> {/* end col lg 12 */}
-                </div> {/* end row */}
-            </div> {/* end container */}
+                    </div> 
+                </div> 
+            </div> 
         </footer>
     )
 }

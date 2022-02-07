@@ -10,7 +10,7 @@ function Intro() {
             <div className="container-fluid">
                 <div className="row justify-content-around">
                     <div className="col-12 d-flex justify-content-center title wow fadeIn" data-wow-duration="1500ms">
-                        <h2>Participe Conosco<div className="title-border-1"></div>
+                        <h2 className='fs-1'>Participe Conosco<div className="title-border-1"></div>
                         </h2>
                     </div>
                    <Cards />

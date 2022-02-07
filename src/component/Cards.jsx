@@ -10,15 +10,15 @@ const card2 = { id: 1, title: "CULTOS ANTERIORES", href: "https://www.youtube.co
 function Button(props) {
     if (props.href.includes('http')) {
         return (
-        <div>
-            <a href={props.href} target="_blank" rel="noreferrer"className="btn btn-card m-0 p-1 px-5 bg-one"> ASSISTIR</a>
+        <div className='col-12 col-sm-6 text-end'>
+            <a href={props.href} target="_blank" rel="noreferrer"className="btn btn-card m-0 p-1 px-5 fs-6 bg-one"> ASSISTIR</a>
         </div>
         )
     } else {
         return (
             <Link href={props.href}>
-                <div>
-                    <a className='btn btn-card m-0 p-1 px-5 bg-one '>ASSISTIR</a>
+                <div className='col-12 col-sm-6 text-end'>
+                    <a className='btn btn-card m-0 p-1 px-5 fs-6 bg-one'>ASSISTIR</a>
                 </div>
             </Link>
         )
@@ -28,10 +28,10 @@ export default class Cards extends Component {
     render() {
         let cards = [card1, card2]
         cards = cards.map((nome, index) => <div key={nome.id} className="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5 wow fadeInUp p-5 mh-50">
-            <div className="card border-0 bg-none" data-wow-duration="500ms" data-wow-delay="400ms">
+            <div className="card border-0 bg-none container" data-wow-duration="500ms" data-wow-delay="400ms">
                 <img src={nome.img} className="card-img-top" alt="..." />
-                <div className="card-body bg-none d-flex justify-content-between px-0">
-                    <h2 className="card-title fs-3 fw-light ">{nome.title} <div className="card-bord"></div> </h2>
+                <div className="card-body bg-none d-flex justify-content-between px-0 row">
+                    <h2 className="card-title fs-3 fw-light col-12 col-sm-6">{nome.title} <div className="card-bord"></div> </h2>
                     <Button href={nome.href} />
                 </div>
             </div>

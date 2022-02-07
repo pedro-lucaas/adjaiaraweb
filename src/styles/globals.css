@@ -87,7 +87,6 @@ a:hover {
 .btn {
   background-color: transparent;
   color: #fff;
-  padding: 10px 30px;
   border-radius: 0;
   transition: all .3s ease-in 0s;
 }
@@ -108,7 +107,7 @@ a:hover {
 .btn-card {
   border: none;
   font-weight:300;
-  font-size: 1em;
+  
   border-radius: 5%;
   color: #fff;
 }
@@ -168,8 +167,8 @@ a:hover {
   position: absolute;
   background: var(--main-color-2);
   width: 30%;
-  left: 35%;
-}
+  left: 35%; 
+} 
 .title-border-2{
   content: '';
   margin: 15px auto 0;
@@ -188,7 +187,7 @@ a:hover {
   background: var(--main-color-2);
   width: 30%;
   left: 35%;
-}
+} 
 
 .card-bord{
   margin: 15px auto 0;
@@ -634,7 +633,9 @@ a:hover {
   Navigation
 ==================================================================*/
 .navigation {
-  width: 100%;
+  top: -1%;
+  left: -1%;
+  width: 102%;
   z-index: 99;
   margin-bottom: 0;
   position: fixed;
@@ -997,10 +998,6 @@ a:hover {
 
 .contact-details{
   margin-top: 50px;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  
 }
 
 .con-info{
@@ -1526,7 +1523,7 @@ a:hover {
 /*=================================================================
   Latest Posts
 ==================================================================*/
-.note {
+/* .note {
   background-color: #292F36;
   border: 1px solid #4e595f;
 }
@@ -1559,7 +1556,7 @@ a:hover {
 
 .all-post {
   margin-top: 50px;
-}
+} */
 
 /*=================================================================
   Single Blog Page
@@ -1787,13 +1784,6 @@ a:hover {
   transition: all 400ms ease-out 0s;
 }
 
-@media (max-width: 768px) {
-  .social-icon ul li a {
-    width: 55px;
-    height: 55px;
-  }
-}
-
 .social-icon ul li a .i {
   color: #55606a;
   display: flex;
@@ -1804,13 +1794,6 @@ a:hover {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
   transition: all 400ms ease-out 0s;
-}
-
-@media (max-width: 768px) {
-  .social-icon ul li a .i {
-    line-height: 55px;
-    font-size: 25px;
-  }
 }
 
 .copyright {
@@ -1826,6 +1809,7 @@ a:hover {
 
 .copyright p {
   margin-top: 10px;
+  letter-spacing: 2px;
 }
 
 #scrollUp {
@@ -2313,25 +2297,29 @@ blockquote {
 /*=================================================================
   Agenda
 ==================================================================*/
-.outdoor{
-  color: #fff;
-  height: 250px;
-  align-items: center;
-  overflow:inherit;
-  border: solid 5px ;
-  border: solid 5px ;
-  border-image-slice: 1;
-  border-width: 5px;
-
-  box-shadow: inset 3px 3px 40px #00000049;
-  text-shadow: 1px 2px #00000036;
+.agenda-title{
+  color: var(--main-color-4);
+  
+  justify-content: center;
 }
-.button{
-  outline: none;
-  border: none;
+.agenda-title h2{
+  border-radius: 3%;
+  background-color: var(--main-color-2);
+  font-weight: 800;
+  letter-spacing: 5px;
+}
+.agenda-item p{
+  font-weight:300
+}
+.agenda-text b{
+  padding: 0;
+  font-weight: 600;
+}
+.arrow{
+  color: var(--main-color-3);
   background-color: transparent;
-  color: white;
-  text-align: center;  
+  border: none;
+  margin: 5px;
 }
 
 /*=================================================================
@@ -2381,11 +2369,7 @@ blockquote {
   justify-content: center;
   align-items: center;
 }
-.image-banner{
-  
-  width: 30%;
-  max-width: 60%;
-}
+
 .banner-container p{
   margin: 40px 0px 0px 0;
   color: var(--main-color-1);

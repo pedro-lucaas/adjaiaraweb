@@ -10,7 +10,7 @@ const LogoMain = '/assets/images/adjaiara-logo2.png'
 function NavigationBar() {
     return <>
 
-        <nav id="navigation" className="navbar navbar-expand-lg navbar-dark bg-one navigation shadow pt-4" style={{height:'7rem'}}>
+        <nav id="navigation" className="navbar navbar-expand-lg navbar-dark bg-one navigation shadow pt-4" style={{height:'6rem'}}>
 
 
                 <div className='position-absolute end-0'>
@@ -27,7 +27,7 @@ function NavigationBar() {
                         </a>
                     </Link>
                 </div>
-            <div className="collapse navbar-collapse justify-content-center bg-one" id="navbarSupportedContent">
+            <div className="collapse navbar-collapse justify-content-center bg-one fs-6" id="navbarSupportedContent">
                 <ul className="navbar-nav">
                     <li className="nav-item text-center">
                         <a className="nav-link toggle" href="/home#intro">HOME</a>

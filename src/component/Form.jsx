@@ -51,7 +51,7 @@ export default function Form() {
                 type="text"
                 name="name"
                 autoComplete="name"
-                className="form-control py-3 my-1 fs-4 text-capitalize"
+                className="form-control py-3 my-1 fs-6 text-capitalize"
                 placeholder="Nome"
                 onChange={({ target }) => setName(target.value)}
 
@@ -62,7 +62,7 @@ export default function Form() {
                 type="email"
                 name="user_email"
                 autoComplete="user_email"
-                className="form-control py-3 my-1 fs-4"
+                className="form-control py-3 my-1 fs-6"
                 placeholder="Email"
                 onChange={({ target }) => setEmail(target.value)}
 
@@ -73,7 +73,7 @@ export default function Form() {
                 type="text"
                 name="user_phone"
                 autoComplete="user_phone"
-                className="form-control py-3 my-1 fs-4 "
+                className="form-control py-3 my-1 fs-6 "
                 placeholder="Whatsapp"
                 onChange={({ target }) => setPhone(target.value)}
 
@@ -84,13 +84,13 @@ export default function Form() {
                 name="message"
                 rows="4"
                 autoComplete="message"
-                className="form-control py-3 my-1 fs-4"
+                className="form-control py-3 my-1 fs-6"
                 placeholder="Mensagem"
                 onChange={({ target }) => setMessage(target.value)}
 
                 value={message}
             />
-            <input type="submit" value="ENVIAR" className="btn btn-transparent py-2 my-2 offset-4 col-4 fs-5" />
+            <input type="submit" value="ENVIAR" className="btn btn-transparent py-2 my-2 offset-4 col-4 fs-6" />
 
         </form>
     )

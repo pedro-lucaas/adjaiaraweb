@@ -1,5 +1,6 @@
 import NavBar from "../../component/Navbar"
 import Footer from "../../component/Footer"
+import Contact from "../../component/Contact"
 import Iframe from "../../component/Iframe"
 
 function Live(props) {

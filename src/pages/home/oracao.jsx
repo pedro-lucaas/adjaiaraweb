@@ -1,6 +1,7 @@
 import Form from '../../component/Form'
 import NavBar from "../../component/Navbar"
 import Footer from "../../component/Footer"
+import Contact from "../../component/Contact"
 
 const background = '/assets/images/backgrounds/bg-1.jpg'
 

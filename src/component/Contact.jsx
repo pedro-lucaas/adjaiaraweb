@@ -9,7 +9,7 @@ function Contact() {
 
             {/* section title */}
             <div className="title d-flex justify-content-center wow fadeInUp" data-wow-duration="1500ms">
-                <h2 className='fs-1'>Entre em Contato
+                <h2 className='fs-2'>Entre em Contato
                     <div className="title-border-2"></div></h2>
             </div>
             {/* /section title */}

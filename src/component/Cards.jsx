@@ -32,7 +32,7 @@ export default class Cards extends Component {
                 <img src={nome.img} className="card-img-top" alt="..." />
                 <div className="card-body bg-none d-flex justify-content-between px-0 row">
                     <div className=' col-12 col-sm-6 d-flex'>
-                        <h2 className="card-title fs-3 fw-light">{nome.title} <div className="card-bord"></div></h2>
+                        <h2 className="card-title fs-5 fw-light">{nome.title} <div className="card-bord"></div></h2>
                     </div>
                     <Button href={nome.href} />
                 </div>

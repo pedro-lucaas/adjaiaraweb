@@ -29,7 +29,7 @@ class Agenda extends Component {
                     <div className="row ">
                         {/* section title */}
                         <div className="title d-flex justify-content-center">
-                            <h2 className="text-white fs-1">Cronograma Semanal<div className="title-border-2"></div></h2>
+                            <h2 className="text-white fs-2">Cronograma Semanal<div className="title-border-2"></div></h2>
 
                         </div>
                         {/* /section title */}
@@ -41,16 +41,16 @@ class Agenda extends Component {
                                             <>
                                                 <Item className='d-flex flex-column'>
                                                     <div className='agenda-title'>
-                                                        <h2 className='fs-2 p-0'>{item.title}</h2>
+                                                        <h2 className='fs-4 p-0'>{item.title}</h2>
                                                     </div>
                                                     <div className='agenda-item p-0 m-0 py-3'>
                                                         {item.events.map((item) => {
-                                                            return <p className='agenda-text fs-3 p-0 m-0'> <b>{item.name}</b> {item.time+'H'}</p>
+                                                            return <p className='agenda-text fs-5 p-0 m-0'> <b>{item.name}</b> {item.time+'H'}</p>
                                                         })}
                                                         {item.title==='DOMINGO'?<>
-                                                        <p className='agenda-text fs-3 p-0 m-0 text-decoration-underline'><b> Programação especial </b></p>
-                                                        <p className='agenda-text fs-3 p-0 m-0'><b>Kids</b>(03 a 10 anos)</p>
-                                                        <p className='agenda-text fs-3 p-0 m-0'><b>Free Generation</b>(a partir de 11 anos)</p>
+                                                        <p className='agenda-text fs-5 p-0 m-0 text-decoration-underline'><b> Programação especial </b></p>
+                                                        <p className='agenda-text fs-5 p-0 m-0'><b>Kids</b>(03 a 10 anos)</p>
+                                                        <p className='agenda-text fs-5 p-0 m-0'><b>Free Generation</b>(a partir de 11 anos)</p>
                                                         </>
                                                         :''}
                                                     </div>

@@ -12,7 +12,7 @@ function Banner() {
                 <div className='row d-flex justify-content-center align-items-center' style={{ height: '400px' }}>
                     <div className='row justify-content-center'>
 
-                        <div className='py-0 col-10 col-md-7 col-lg-6  col-xl-5'>
+                        <div className='py-0 col-9 col-md-6 col-lg-5  col-xl-4'>
                             <Image src={Logo} width='2150' height='1260' alt="AD JAIARA" className='img-fluid' />
                         </div>
                         <p className='fs-6 py-0 my-0'>Igreja Assembleia de Deus de Vila Jaiara</p>

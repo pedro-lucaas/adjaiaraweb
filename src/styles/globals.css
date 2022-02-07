@@ -2232,32 +2232,31 @@ blockquote {
   Culto Online
 ==================================================================*/
 .container-live {
-  margin-top: 80px;
   padding-top: 30px;
   border-top:solid 1px var(--main-color-1);
   color: var(--main-color-3);
   }
 
 @media (max-width: 1999px) {
-  .video-culto-online {
+  .container-live {
     height: 549px;
   }
 }
 
 @media (max-width: 992px) {
-  .video-culto-online {
+  .container-live {
     height: 425px;
   }
 }
 
 @media (max-width: 768px) {
-  .video-culto-online {
+  .container-live {
     height: 57.25vw;
   }
 }
 
 @media (min-width: 1200px) {
-  .video-culto-online {
+  .container-live {
     height: 660px;
   }
 }
@@ -2282,6 +2281,7 @@ blockquote {
   color: var(--main-color-3);
   font-weight: 300;
   letter-spacing: 1px;
+
 }
 
 
@@ -2323,8 +2323,7 @@ blockquote {
   
 }
 .background-opacity{
-  height: 100vh;
-  width:100%;
+  
   background-color: rgba(0, 0, 0, 0.541);
   
 }

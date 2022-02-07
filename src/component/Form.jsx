@@ -90,7 +90,7 @@ export default function Form() {
 
                 value={message}
             />
-            <input type="submit" value="ENVIAR" className="btn btn-transparent py-2 my-2 offset-4 col-4 fs-6" />
+            <input type="submit" value="ENVIAR" className="btn btn-transparent py-2 my-2 offset-4 col fs-6" />
 
         </form>
     )

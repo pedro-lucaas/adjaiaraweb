@@ -27,11 +27,11 @@ function iframeVideo(props) {
 			<p className="text-center">Desculpe! Ocorreu um problema</p>
 		</section>
 	</>
-	return <div className="bg-dark-2 p-1">
-		<div className="text-center container">
+	return <div className="col container-live bg-dark-2 text-center">
 
-		<iframe width="70%" height="100%" src={`https://www.youtube.com/embed/${data[0].id.videoId}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-		</div>
+	
+			<iframe width="70%" height="100%" src={`https://www.youtube.com/embed/${data[0].id.videoId}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+	
 	</div>
 }
 

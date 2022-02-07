@@ -86,7 +86,7 @@ a:hover {
 
 .btn {
   background-color: transparent;
-  color: #fff;
+  color: var(--main-color-3);
   border-radius: 0;
   transition: all .3s ease-in 0s;
 }
@@ -102,14 +102,14 @@ a:hover {
 .btn-transparent:hover, .btn-transparent:focus, .btn-outline-light:hover, .btn-outline-light:focus {
   background-color: var(--main-color-1);;
   border: 1px solid transparent;
-  color: #fff;
+  color: var(--main-color-4) !important;
 }
 .btn-card {
   border: none;
   font-weight:300;
   
   border-radius: 5px;
-  color: #fff;
+  color: var(--main-color-3);
 }
 
 .btn-card:hover, .btn-card:focus {
@@ -674,57 +674,25 @@ a:hover {
   background-attachment: fixed;
 }
 
-.hero-area {
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.hero-area .block {
-  text-align: center;
-  z-index: 99;
-}
-
-.hero-area .block .video-button a {
-  background: #fff;
-  display: inline-block;
-  height: 60px;
-  width: 60px;
-  border-radius: 50px;
-  line-height: 60px;
-  font-size: 20px;
-  margin-left: 3px;
-  color: var(--main-color-1);;
-}
-
-.hero-area .block h1 {
-  font-size: 90px;
-  color: #fff;
+.hero-area h1 {
+  font-size: 8vh;
+  color: var(--main-color-3);
   text-transform: capitalize;
   font-weight: 800;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
-@media (max-width: 480px) {
-  .hero-area .block h1 {
-    font-size: 60px;
-  }
-}
 
-.hero-area .block p {
-  color: #fff;
-  font-size: 20px;
+.hero-area  p {
+  font-size: 2vh;
+  color: var(--main-color-3);
   width: 100%;
-  margin: 0 auto;
 }
 
-.hero-area .block .btn-transparent {
-  margin-top: 40px;
-  border-color: #fff;
+ 
+.hero-area .btn-transparent {
+  margin-top: 15px;
+  border-color: var(--main-color-3);
   padding: 14px 50px;
   font-size: 18px;
   font-size: 16px;
@@ -732,53 +700,43 @@ a:hover {
   letter-spacing: 1px;
 }
 
-.hero-video {
-  position: absolute;
-  left: 50%;
-  min-height: 120%;
-  min-width: 180%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.twp-video-background {
-  background: #000;
-  position:absolute;
-  height: 100vh;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  overflow: hidden;
-  box-sizing: border-box;
-}
-.twp-video {
-  left: 50%;
-  min-height: 120%;
-  min-width: 100%;
-  top: 50%;
-  position: absolute;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  
-}
-
-
-.overlay {
+.hero-area {
   position: relative;
+  background-color: black;
+  height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
 }
 
-.overlay::before {
-  content: '';
-  background: rgba(0, 0, 0, 0.63);
+.hero-area iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200vh;
+  height: 120%;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.hero-area .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-area .overlay {
   position: absolute;
   top: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
   left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
 }
+
 
 .dark-bg {
   background: rgba(0, 0, 0, 0.7);

@@ -25,8 +25,8 @@ class Agenda extends Component {
         
         return (
             <div>
-                <section id="agenda" className="section-sm bg-gr shadow-lg wow fadeInUp " style={{ backgroundImage: `url(${background})` }} >
-                    <div className="row ">
+                <section id="agenda" className="section-sm shadow-lg  " style={{ backgroundImage: `url(${background})` }} >
+                    <div className="row wow fadeInUp">
                         {/* section title */}
                         <div className="title d-flex justify-content-center">
                             <h2 className="text-white fs-2">Cronograma Semanal<div className="title-border-2"></div></h2>

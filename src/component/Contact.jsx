@@ -5,7 +5,8 @@ import MapContainer from './MapContainer';
 
 function Contact() {
     return <div >
-        <section id="contato" className="call-to-action-2 bg-one wow fadeInUp" >
+        <section id="contato" className="call-to-action-2 bg-one " >
+<div className='wow fadeInUp'>
 
             {/* section title */}
             <div className="title d-flex justify-content-center" data-wow-duration="1500ms">
@@ -15,6 +16,7 @@ function Contact() {
             {/* /section title */}
             <MapContainer />
             {/* Contact Details */}
+</div>
 
 
         </section>

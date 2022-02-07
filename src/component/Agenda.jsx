@@ -18,7 +18,7 @@ class Agenda extends Component {
     myArrow({type,onClick, isEdge}){
         const pointer = type === consts.PREV ? <BsIcons.BsFillCaretLeftFill/> : <BsIcons.BsFillCaretRightFill/>
         return(
-            <button onClick={onClick} disabled={isEdge} className='arrow'>{pointer}</button>
+            <button onClick={onClick} disabled={isEdge} className='arrow fs-3'>{pointer}</button>
         )
       }
     render() {
@@ -47,6 +47,12 @@ class Agenda extends Component {
                                                         {item.events.map((item) => {
                                                             return <p className='agenda-text fs-3 p-0 m-0'> <b>{item.name}</b> {item.time+'H'}</p>
                                                         })}
+                                                        {item.title==='DOMINGO'?<>
+                                                        <p className='agenda-text fs-3 p-0 m-0 text-decoration-underline'><b> Programação especial </b></p>
+                                                        <p className='agenda-text fs-3 p-0 m-0'><b>Kids</b>(03 a 10 anos)</p>
+                                                        <p className='agenda-text fs-3 p-0 m-0'><b>Free Generation</b>(a partir de 11 anos)</p>
+                                                        </>
+                                                        :''}
                                                     </div>
                                                 </Item>
                                             </>

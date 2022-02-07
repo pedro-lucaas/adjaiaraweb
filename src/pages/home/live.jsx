@@ -12,17 +12,17 @@ function Live(props) {
 				<div className="d-flex flex-column">
 
 					<div className="text-center border-white-t">
-						<h1 className="text-white py-4 fw-bold">Culto Online</h1>
+						<h1 className="py-4 title-live fs-1">CULTO ONLINE</h1>
 					</div>
-					<div className="border-white-x">
+					<div className="border-white-x container-live fs-5">
 						<Iframe />
 					</div>
 
-					<div className="text-white text-center py-5 border-white-b">
-						<h3><span className="color fw-normal"> Programação AD JAIARA WEBTV:</span></h3>
-						<p><b>Domingo</b> - Culto às 10:00h, 18:00h e 20:00h</p>
-						<p><b>Terça</b> - Culto às 19:30h</p>
-						<p><b>Quinta</b> - Culto às 19:30h</p>
+					<div className="text-center py-5 border-white-b fs-4 footer-live">
+						<h2 className="fs-2 color">Programação AD JAIARA WEBTV:</h2>
+						<p><span>Domingo</span> - Culto às 10:00h, 18:00h e 20:00h</p>
+						<p><span>Terça</span> - Culto às 19:30h</p>
+						<p><span>Quinta</span> - Culto às 19:30h</p>
 					</div>
 				</div>
 

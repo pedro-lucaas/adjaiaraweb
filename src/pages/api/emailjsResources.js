@@ -4,7 +4,7 @@ async function emailResources(req, res){
         emaisjsTemplate: process.env.EMAILJS_API_TEMPLATE,  
         emailjsSevice: process.env.EMAILJS_API_SERVICE, 
     }
-    s
+    
     res.json({
         resources
     })

@@ -10,7 +10,7 @@ const LogoMain = '/assets/images/adjaiara-logo2.png'
 function NavigationBar() {
     return <>
 
-        <nav id="navigation" className="navbar navbar-expand-lg navbar-dark bg-one navigation shadow" style={{height:'90px'}}>
+        <nav id="navigation" className="navbar navbar-expand-lg navbar-dark bg-one navigation shadow pt-4" style={{height:'7rem'}}>
 
 
                 <div className='position-absolute end-0'>
@@ -19,9 +19,9 @@ function NavigationBar() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                 </div>
-                <div className='position-absolute start-0'>
+                <div className='position-absolute start-0 m-3'>
                     <Link href="/">
-                        <a className="navbar-header logo-title px-2 px-xl-3">
+                        <a className="navbar-header logo-title px-2 px-xl-4">
                             <img src={LogoMain} className="img-fluid" alt="LogoADJaiara" width="55" height="55"/>
                             <span className='d-none d-xl-inline'> <b>AD</b> JAIARA</span>
                         </a>
@@ -44,19 +44,19 @@ function NavigationBar() {
                             <li><a className="dropdown-item text-center" target={'_blank'} rel="noreferrer" href="https://www.youtube.com/channel/UCb6GR-irIyMpSfsdrhPC7CQ">TRANSMISSOES ANTERIORES</a></li>
                         </ul>
                     </li>
-                    <li className="nav-item text-center">
+                    {/* <li className="nav-item text-center">
                         <Link href="/home/igreja">
                             <a className="nav-link">A IGREJA</a>
                         </Link>
-                    </li>
+                    </li> */}
                     <li className="nav-item text-center">
                         <a className="nav-link" href="/home#agenda">AGENDA</a>
                     </li>
-                    <li className="nav-item text-center">
+                    {/* <li className="nav-item text-center">
                         <Link href="/home/ministerios">
                             <a className="nav-link" >MINISTERIOS</a>
                         </Link>
-                    </li>
+                    </li> */}
                     <li className="nav-item text-center">
                         <Link href="/home/oracao">
                             <a className="nav-link" >ORACAO</a>

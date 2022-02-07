@@ -5,7 +5,7 @@ export default [
         id: 0,
         title: 'DOMINGO',
         events: [
-            { name: 'Culto da manhã', time: '10:00' },
+            { name: 'Culto da Manhã', time: '10:00' },
             { name: 'Culto de Celebração', time: '18:00' },
 
         ],
@@ -16,7 +16,7 @@ export default [
         id: 1,
         title: 'SEGUNDA',
         events: [
-            { name: 'Tarde da benção', time: '14:00' },
+            { name: 'Tarde da Benção', time: '14:00' },
         ]
     },
     {

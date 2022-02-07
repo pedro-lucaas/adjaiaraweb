@@ -45,13 +45,13 @@ export default function Form() {
         });
     }
     return (
-        <form id="form" className="row px-5 " onSubmit={handleSubmit}>
+        <form id="form" className="row oracao-form px-5" onSubmit={handleSubmit}>
             <input
                 id="name"
                 type="text"
                 name="name"
                 autoComplete="name"
-                className="form-control py-2 my-1"
+                className="form-control py-3 my-1 fs-4 text-capitalize"
                 placeholder="Nome"
                 onChange={({ target }) => setName(target.value)}
 
@@ -62,7 +62,7 @@ export default function Form() {
                 type="email"
                 name="user_email"
                 autoComplete="user_email"
-                className="form-control py-2 my-1"
+                className="form-control py-3 my-1 fs-4"
                 placeholder="Email"
                 onChange={({ target }) => setEmail(target.value)}
 
@@ -73,7 +73,7 @@ export default function Form() {
                 type="text"
                 name="user_phone"
                 autoComplete="user_phone"
-                className="form-control py-2 my-1"
+                className="form-control py-3 my-1 fs-4 "
                 placeholder="Whatsapp"
                 onChange={({ target }) => setPhone(target.value)}
 
@@ -84,13 +84,13 @@ export default function Form() {
                 name="message"
                 rows="4"
                 autoComplete="message"
-                className="form-control py-2 my-1"
+                className="form-control py-3 my-1 fs-4"
                 placeholder="Mensagem"
                 onChange={({ target }) => setMessage(target.value)}
 
                 value={message}
             />
-            <input type="submit" value="ENVIAR" className="btn btn-transparent my-2" />
+            <input type="submit" value="ENVIAR" className="btn btn-transparent py-2 my-2 offset-4 col-4 fs-5" />
 
         </form>
     )

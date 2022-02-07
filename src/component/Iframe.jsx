@@ -16,18 +16,18 @@ function iframeVideo(props) {
 	}, [])
 
 	if (isLoading) return <>
-		<section className="bg-one" style={{ padding: '20vh' }}>
+		<section className="bg-dark-2 " style={{ padding: '20vh' }}>
 			<div className="text-center">
 				<LoadingGif />
 			</div>
 		</section>
 	</>
 	if (!data) return <>
-		<section className="bg-one" style={{ padding: '20vh' }}>
+		<section className="bg-dark-2 " style={{ padding: '20vh' }}>
 			<p className="text-center">Desculpe! Ocorreu um problema</p>
 		</section>
 	</>
-	return <div className="col video-culto-online  align-self-center text-center bg-one p-0">
+	return <div className="col  align-self-center text-center bg-dark-2 p-0">
 		<iframe width="70%" height="100%" src={`https://www.youtube.com/embed/${data[0].id.videoId}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 	</div>
 }

@@ -5,7 +5,7 @@ import Cards from './Cards';
 
 function Intro() {
     return <div>
-        <section id="intro" className="about call-to-action section overly bg-1 intro">
+        <section className="about call-to-action section overly bg-1 intro">
             
             <div className="container-fluid">
                 <div className="row justify-content-around">

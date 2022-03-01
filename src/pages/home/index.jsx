@@ -12,8 +12,7 @@ const WOW = !isServer ? require('wow.js') : null
 
 export default class HomePage extends React.Component {
     
-    componentDidMount() {
-       
+    componentDidMount() {       
         new WOW().init()
     }
     render() {

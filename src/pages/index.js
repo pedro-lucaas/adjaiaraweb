@@ -20,7 +20,7 @@ export default function Home() {
             <h1 class=""><b>AD</b> JAIARA </h1>
             <p class="lead mb-0">Assembleia de Deus Vila Jaiara<br />
           Ministério de Anápolis</p>
-          <Link href="/home" >
+          <Link href="/home">
           <a className="btn btn-transparent shadow-lg fs-6"> ENTRAR</a>
         </Link>
           </div>

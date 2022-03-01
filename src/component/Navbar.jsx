@@ -93,7 +93,7 @@ function NavigationBar() {
                             <a className="nav-link" itemProp='#intro' onClick={e => smoothScroolToId(e)}>HOME</a>
                         </Link>
                     </li>
-                    <li className="nav-item text-center dropdown">
+                    <li className="nav-item text-center nav-drop">
                         <a className="nav-link" href="/" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">CULTO ONLINE</a>
                         <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
                             <li>

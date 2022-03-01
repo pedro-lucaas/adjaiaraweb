@@ -18,28 +18,28 @@ export default function Footer() {
                 <div className="contact-details row">
 
                     <div className="con-info col-12 col-md-10 col-lg-4 fs-6">
-                        <div><p>
-
-                            <b>
-                                <div className='icon'>
-                                    <MdIcons.MdPhone />
-                                </div>
-                                Telefone/WhatsApp:
-                            </b>
-                        </p>
+                        <div>
+                            <div className='icon'>
+                                <MdIcons.MdPhone />
+                            </div>
+                            <p>
+                                <b>
+                                    Telefone/WhatsApp:
+                                </b>
+                            </p>
                             <p className='con-text'>+55 62 3099-1259 / 62 99333-8461</p>
                         </div>
                     </div>
                     <div className="con-info col-12 col-md-10 col-lg-4 fs-6">
-                        <div><p>
-
-                            <b>
-                                <div className='icon'>
-                                    <MdIcons.MdLocationOn />
-                                </div>
-                                Endereço:
-                            </b>
-                        </p>
+                        <div>
+                            <div className='icon'>
+                                <MdIcons.MdLocationOn />
+                            </div>
+                            <p>
+                                <b>
+                                    Endereço:
+                                </b>
+                            </p>
                             <p className='con-text'>Av. 24 de Agosto
                                 Qd. 24 Lt. 12
                                 Vila Jaiara75060-470
@@ -48,11 +48,11 @@ export default function Footer() {
                     </div>
                     <div className="con-info col-12 col-md-10 col-lg-4 fs-6">
                         <div>
+                            <div className='icon'>
+                                <MdIcons.MdEmail />
+                            </div>
                             <p>
                                 <b>
-                                    <div className='icon'>
-                                        <MdIcons.MdEmail />
-                                    </div>
                                     E-mail:
                                 </b>
                             </p>

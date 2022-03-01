@@ -16,8 +16,8 @@ function Oferta() {
 
                     <div className="col-xs-12 col-sm-10 col-md-8 col-lg-6 col-xxl-4 text-center wow wow fadeInUp">
                         <p className='fs-4'>Permaneça fiel nos dízimos e ofertas!
-                            Eles podem ser feitos por PIX, transferência ou depósito:
-                        <h2 className='pt-3 fs-4'> CNPJ:<h3 className='fs-4'>02.341.030/0001-97</h3></h2></p>
+                            Eles podem ser feitos por PIX, transferência ou depósito:</p>
+                        <h2 className='pt-3 fs-4'> CNPJ:</h2><p className='fs-4'>02.341.030/0001-97</p>
                     </div>
                 </div>
                 <div className="row d-flex justify-content-around pt-5 col-lg-10 col-xxl-8">

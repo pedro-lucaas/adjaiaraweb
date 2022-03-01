@@ -29,8 +29,8 @@ function NavigationBar() {
                         }else{
                             position = 10;
                         }
-                        smoothScrollTo(0, to - position, 500)
-                    },100
+                        smoothScrollTo(0, to - position, 300)
+                    },50
             );
             
         })

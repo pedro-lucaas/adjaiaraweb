@@ -661,9 +661,14 @@ a:hover {
 }
 
 .nav-drop{
-  position: relative;	
+  position: static;	
 }
 
+@media (min-width: 992px){
+  .nav-drop{
+    position: relative;
+  }
+}
 
 .bg-1 {
   /* background-image: url("./assets/images/backgrounds/bg-1.jpg"); */

@@ -12,13 +12,13 @@ export default function Home() {
           title="YouTube video player" frameBorder="0" allow="autoplay" ></iframe>
       </div>
 
-      <div class="container h-100">
-        <div class="d-flex h-100 text-center align-items-center">
-          <div class="w-100 text-white">
+      <div className="container h-100">
+        <div className="d-flex h-100 text-center align-items-center">
+          <div className="w-100 text-white">
           <Image src={LogoMain} width="150" height="150" alt="AD JAIARA" />
 
-            <h1 class=""><b>AD</b> JAIARA </h1>
-            <p class="lead mb-0">Assembleia de Deus Vila Jaiara<br />
+            <h1 className=""><b>AD</b> JAIARA </h1>
+            <p className="lead mb-0">Assembleia de Deus Vila Jaiara<br />
           Ministério de Anápolis</p>
           <Link href="/home">
           <a className="btn btn-transparent shadow-lg fs-6"> ENTRAR</a>

@@ -660,7 +660,14 @@ a:hover {
   border-radius: 0;
 }
 
-
+.nav-drop{
+  position: relative;	
+}
+@media (min-width: 992px){
+  .nav-drop{
+    position: static;
+  }
+}
 
 .bg-1 {
   /* background-image: url("./assets/images/backgrounds/bg-1.jpg"); */

@@ -1,4 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AD Jaiara WebSite
+
+
+#### adjaiara-site
+
+> Raiz do site.
+
+
+#### template
+
+> Template utilizado como referência.
+ 
+> <https://github.com/themefisher/Meghna-Multipurpose-Bootstrap-Template>
+
+### AWS
+>http://aws-adjaiara.s3-website-sa-east-1.amazonaws.com
+
+### Vercel App
+
+>https://adjaiaraweb-vert.vercel.app
 
 ## Getting Started
 

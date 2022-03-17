@@ -72,10 +72,7 @@ a:hover {
   outline: 0;
 }
 
-a:focus,
-a:hover {
-  color: #fff;
-}
+
 
 .kill-margin-bottom {
   margin-bottom: 0 !important;
@@ -283,7 +280,7 @@ a:hover {
 
 a:focus,
 a:hover {
-  color: var(--main-color);;
+  color: #fff;
 }
 
 .btn-main {

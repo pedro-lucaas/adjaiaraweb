@@ -74,7 +74,7 @@ a:hover {
 
 a:focus,
 a:hover {
-  color: #6CB670;
+  color: #fff;
 }
 
 .kill-margin-bottom {
@@ -2286,16 +2286,13 @@ blockquote {
 /*=================================================================
   Oração
 ==================================================================*/
-#oracao{
-  
-}
+
 .background-opacity{
   
   background-color: rgba(0, 0, 0, 0.541);
   
 }
-.oracao {
-}
+
 .border-form{
   content: '';
   height: 1px;

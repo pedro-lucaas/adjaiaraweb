@@ -1,23 +1,20 @@
 import NavBar from "../../component/Navbar"
 import Footer from "../../component/Footer"
-import Contact from "../../component/Contact"
 import Iframe from "../../component/Iframe"
+import youtube from "../api/youtube"
 
-function Live(props) {
+function Live({ data }) {
 	return <>
-
 		<NavBar />
 		<div>
-			<section className=" wow fadeIn container-fluid bg-dark-2" style={{paddingTop:'12vh'}}>
+			<section className=" wow fadeIn container-fluid bg-dark-2" style={{ paddingTop: '12vh' }}>
 				<div className="d-flex flex-column">
-
 					<div className="text-center border-white-t">
 						<h1 className="title-live fs-3 mb-5 mt-4">CULTO ONLINE</h1>
 					</div>
 					<div className="border-white-x fs-5">
-						<Iframe />
+						<Iframe data={data}/>
 					</div>
-
 					<div className="text-center py-5 border-white-b fs-6 footer-live mt-4">
 						<h2 className="fs-4 color">Programação AD JAIARA WEBTV:</h2>
 						<p><b>Domingo</b> - Culto às 10:00h, 18:00h e 20:00h</p>
@@ -34,3 +31,13 @@ function Live(props) {
 
 
 export default Live;
+
+export async function getStaticProps() {
+	const data = await youtube()
+	return {
+		props: {
+			data,
+		},
+		revalidate: 1800,
+	}
+}

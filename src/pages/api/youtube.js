@@ -1,4 +1,4 @@
-async function getYoutubeVideos(req, res) {
+async function youtube(req, res) {
   const apiSecret = process.env.YOUTUBE_API_SECRET;
   // get live
   let response;
@@ -16,13 +16,7 @@ async function getYoutubeVideos(req, res) {
   }else{
     response = null
   }
-
-  res.setHeader('Cache-Control', 's-maxage=1800, stale-while-revalidate')
-
-  res.json({
-    response
-  })
-  
+  return response
 }
 
-export default getYoutubeVideos;
+export default youtube;

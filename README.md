@@ -1,5 +1,9 @@
 # AD Jaiara WebSite
-
+<div align="center" >
+  <img src="https://user-images.githubusercontent.com/74577150/227990167-ad32eb21-2d60-4e86-aede-dceae4987c38.png" alt="Home" width="80%" />
+  <img src="https://user-images.githubusercontent.com/74577150/227990182-a98f5757-a76a-49af-aab1-94aa96f348f4.png" alt="Oração" width="49%" />
+  <img src="https://user-images.githubusercontent.com/74577150/227990198-e5ba00e6-027b-4ea5-bcc1-b22e1c5aa2e2.png" alt="Transmissão" width="49%" />
+</div>
 
 #### adjaiara-site
 
@@ -12,16 +16,34 @@
  
 > <https://github.com/themefisher/Meghna-Multipurpose-Bootstrap-Template>
 
-### AWS
->http://aws-adjaiara.s3-website-sa-east-1.amazonaws.com
 
 ### Vercel App
 
 >https://adjaiaraweb-vert.vercel.app
 
+
 ## Getting Started
 
-First, run the development server:
+Para iniciar o projeto, você deve ter o [Node.js](https://nodejs.org/en/) instalado em sua máquina.
+
+Primeiro, instale as dependências:
+
+```bash
+npm install
+# or
+yarn
+```
+
+Agora, você deve criar um arquivo `.env` na raiz do projeto e adicionar as seguintes variáveis de ambiente:
+
+```bash
+YOUTUBE_API_SECRET=AIzaSyDOdyTilZkCtA9M-rvzCpI76FpDmMFzeLo
+EMAILJS_API_USER=user_frb365CzjooTXckt7YGmh
+EMAILJS_API_TEMPLATE=template_s1ellw7
+EMAILJS_API_SERVICE=service_qqkyqp5
+```
+
+Depois, você pode iniciar o servidor de desenvolvimento:
 
 ```bash
 npm run dev
@@ -29,25 +51,4 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Abra [http://localhost:3000](http://localhost:3000) com o seu navegador para ver o resultado.
